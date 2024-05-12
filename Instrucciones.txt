@@ -29,7 +29,7 @@ Pasos:
 8*- Registrar la aplicacion del negocio en Firebase, ir al archivo del proyecto e identificar entre las
 etiquetas <ApplicationId></ApplicationId> copiar el id y pegarlo, poner un nombre a la app en el 
 recuadro siguiente.
-9*- Despues descargar archivo json y guardarlo bien.
+9*- Después de descargar el archivo json, guardarlo en una ubicación conocida.
 10*- Ir al proyecto del negocio en visual studio, agregar el archivo json google-service.json arrastrandolo al proyecto.
 11*- Abrir las propiedades del archivo google-service.json y cambiar en Accion de compilacion a GoogleServiceJson
 12*- Ir a la carpeta Platforms>Android>Resources>values y agregar un nuevo elemento, ir a Datos y seleccionar archivo XML
@@ -39,7 +39,7 @@ recuadro siguiente.
        </resources>
 despues en las propiedades del archivo en Accion de compilacion seleccionar AndroidResource
 14*-Ir a la carpeta Platforms>Android> y abrir el archivo MainActivity.cs, agregar las siguientes librerias:
- using Android.App;
+using Android.App;
 using Android.Content;
 using Android.Content.PM;
 using Android.OS;
